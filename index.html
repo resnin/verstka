@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo-block">
+          <img src="./img/logo.png" alt="" class="logo" />
+        </div>
+        <div class="main-block">
+          <div class="text-block animate__animated animate__backInLeft">
+            <h1 class="main-title">
+              С помощью нас <br />
+              вы сможете создать то, о чем <span>желаете</span>
+            </h1>
+            <div class="main-text">
+              Наши возможности + опыт позволят вам достичь огромного успеха. Мы
+              верим в вас! И знаем это на все 100%. Вас не остановить!
+            </div>
+            <button class="main-btn btn-animate">Узнать больше...</button>
+          </div>
+          <img src="./img/header-img.png" alt="" class="main-img animate__animated animate__backInRight" />
+        </div>
+      </div>
+    </header>
+
+    <div class="second-block">
+      <div class="container">
+        <h2 class="title">Что вам необходимо?</h2>
+
+        <div class="list">
+          <div class="block">
+            <img src="./img/f3.png" alt="" class="list-img" />
+            <div class="list-title">Первый блок</div>
+            <div class="list-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+          </div>
+
+          <div class="block">
+            <img src="./img/f4.png" alt="" class="list-img" />
+            <div class="list-title">Второй блок</div>
+            <div class="list-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+          </div>
+
+          <div class="block">
+            <img src="./img/f5.png" alt="" class="list-img" />
+            <div class="list-title">Третий блок</div>
+            <div class="list-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-block">
+      <div class="container">
+        <h2 class="title">Форма заказа обратного звонка</h2>
+
+        <form action="#" class="form">
+          <input type="text" placeholder="Имя" name="name" required minlength="3" maxlength="15"/>
+          <input type="email" placeholder="e-mail" name="mail" required />
+          <input type="phone" placeholder="Телефон" name="phone" pattern="[78][0-9]{9}" required />
+          <input type="text" placeholder="Какая тема вас интересует" name="theme" required />
+          <button type="submit" class="main-btn">Отправить вопрос</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="form-block">
+      <div class="container">
+        <h2 class="title">Форма заказа товара</h2>
+
+        <form action="#" class="form js-form">
+          <input type="text" placeholder="Имя" name="name"/>
+          <input type="number" placeholder="Количество" name="quantity"/>
+          <input type="date" placeholder="Дата" name="date"/>
+          <button type="submit" class="main-btn">Отправить вопрос</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <p>Все на этом сайте защищено</p>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
